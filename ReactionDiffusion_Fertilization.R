@@ -1,9 +1,17 @@
+#################################################
+###  script to simulate spatial dynamics      ###
+###  of sea urchin fertilization in 2D        ###
+###  Author:  D.K. Okamoto                    ###
+#################################################
+
 
 ### load necessary libraries 
-library(deSolve);library(animation);library(grid);library(lattice)
-library(plyr);library(reshape2);library(fields);library(grid);library(RColorBrewer)
+library(deSolve);library(animation);library(grid);
+library(lattice);library(latticeExtra);library(gridExtra)
+library(plyr);library(reshape2);library(fields);
+library(grid);library(RColorBrewer)
 
-####################################
+#####################################
 ### define compartmentalized model
 ####################################
 
